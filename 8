@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+int[] scores = {10, 20, 30, 40, 50};
+int[] copiedScores = new int[scores.length];
+for (int i = 0; i < scores.length; i++) {
+            copiedScores[i] = scores[i];
+        }
+        
+        // Print the copied array to verify the copy
+        System.out.println("Copied array:");
+        for (int score : copiedScores) {
+            System.out.print(score + " ");
+        }
+    }
+}
